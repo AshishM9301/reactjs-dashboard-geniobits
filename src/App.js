@@ -22,7 +22,7 @@ const App = (props) => {
   return (
     <div className="relative">
       <div className="flex">
-        <Sidebar />
+        {props.isAuth && <Sidebar />}
         <div className="flex-1">
           <Navbar />
         </div>

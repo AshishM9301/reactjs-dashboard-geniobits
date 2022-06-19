@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useRef, useState } from "react";
+import React, { Fragment } from "react";
 import { connect, useDispatch } from "react-redux";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon, UserIcon } from "@heroicons/react/solid";
